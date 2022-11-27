@@ -1,0 +1,131 @@
+* {
+    --bgColorModal: #656565;
+    --bgColormain: #ffffff;
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+/* 
+==================================================
+======- Cookies -
+==================================================
+*/
+
+
+.icon_cookies{
+    height: 200px;
+    position: fixed;
+    bottom: 0.1%;
+    left: 85%;
+}
+
+.cookieModal {
+   
+    margin: auto;
+    margin-top: 100px;
+    width: 900px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    background-image: url("./img/cookie-modal/cookie_back.jpg");
+    background-size: cover;
+}
+
+.cookieModal div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+    z-index: 0;
+    background-color: white;
+    margin-top: auto;
+}
+
+.cookieModal ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+    gap: 15px;
+}
+
+.exitCookie {
+    align-self: flex-end;
+    width: 50px;
+}
+
+/* 
+==================================================
+======- NEWSLETTER -
+==================================================
+*/
+
+.icon_newsletter{
+    height: 120px;
+    position: fixed;
+    bottom: 5%;
+    left: 75%;
+}
+
+.newsModal {    
+    margin: auto;
+    margin-top: -30%;
+    margin-bottom: 10%;
+    width: 900px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("./img/newsletter-modal/mail_boxes.jpg");
+    background-size: cover;
+    z-index: 1;
+}
+
+
+.exitNews {
+    align-self: flex-end;
+    width: 50px;
+}
+
+
+.newsModal div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    background-color: var(--bgColormain);
+    margin-top: auto;
+}
+
+.newsModal ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.mail_Input {
+    border-radius: 7px;
+}
+
+.validateNews {
+    margin-top: 20px;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* 
+==================================================
+======- XXXXXXXXXXX -
+==================================================
+*/
