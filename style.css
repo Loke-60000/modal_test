@@ -91,7 +91,34 @@ input {
 button {
     height: 50px;
     width: 210px;
+    margin-left: 5px;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    outline: none;
 
+    border: none;
+    outline:none;
+    padding: 5px;
+
+}
+
+
+button:hover {
+    border: none;
+    outline:none;
+    padding: 5px;
+}
+    
+button:active {
+    border: none;
+    outline:none;
+    padding: 5px;
+}
+    
+button:focus {
+    border: none;
+    outline:none;
+    padding: 5px;
 }
 
 /* 
@@ -109,7 +136,7 @@ button {
 
 .newsModal {    
     margin: auto;
-    margin-top: -25%;
+    margin-top: -28%;
     margin-bottom: 10%;
     width: 900px;
     height: 800px;
@@ -184,16 +211,9 @@ ul {
     width: 50px;
 }
 
-.loginmModal {
-   
-    margin: auto;
-    margin-top: 100px;
-    width: 900px;
-    height: 400px;
-    display: flex;
-    flex-direction: row;
-    background-image: url("./img/cookie-modal/cookie_back.jpg");
-    background-size: cover;
+.loginModal button{
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
 }
 
 .loginModal hr {
