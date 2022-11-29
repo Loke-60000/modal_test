@@ -3,10 +3,18 @@
     --bgColormain: #ffffff;
 }
 
+
 .example::-webkit-scrollbar {
     display: none;
   }
   
+input {
+    width: 20%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: none;
+  }
 
 /* 
 ==================================================
@@ -22,39 +30,68 @@
     left: 85%;
 }
 
+.big_cookie{
+    position: absolute;
+    z-index: 1;
+    height: 8%;
+    left: 38%;
+    top: 39%;
+}
+
 .cookieModal {
-   
     margin: auto;
-    margin-top: 100px;
-    width: 900px;
+    margin-top: 10%;
+    
+    /* margin: auto; */
+    width: 950px;
     height: 400px;
     display: flex;
-    flex-direction: row;
-    background-image: url("./img/cookie-modal/cookie_back.jpg");
-    background-size: cover;
+    /* flex-direction: row;
+    background-size: cover; */
+    /* max-height: 30%; */
+
+}
+
+.cookieModal img {
+    opacity: 0.8;
 }
 
 .cookieModal div{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: justify;
+    align-items: justify; */
     z-index: 0;
     background-color: white;
-    margin-top: auto;
+    /* height: 100%; */
 }
 
-.cookieModal ul {
+.cookieModal h1{
+    text-align: center;
+}
+.cookieModal p{
+    margin-left: 10px;
+}
+
+/* .cookieModal ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: justify;
     gap: 15px;
-}
+} */
 
 .exitCookie {
-    align-self: flex-end;
+    margin-left: 90%;
     width: 50px;
+}
+
+
+
+button {
+    height: 50px;
+    width: 210px;
+
 }
 
 /* 
@@ -72,7 +109,7 @@
 
 .newsModal {    
     margin: auto;
-    margin-top: -30%;
+    margin-top: -25%;
     margin-bottom: 10%;
     width: 900px;
     height: 800px;
@@ -82,6 +119,11 @@
     background-image: url("./img/newsletter-modal/mail_boxes.jpg");
     background-size: cover;
     z-index: 1;
+}
+
+.newsModal hr {
+    width: 55%;
+    margin-top: -0.2%;
 }
 
 
@@ -126,6 +168,56 @@ ul {
 
 /* 
 ==================================================
-======- XXXXXXXXXXX -
+======- login -
 ==================================================
 */
+
+.icon_login{
+    height: 120px;
+    position: fixed;
+    bottom: 5%;
+    left: 65%;
+}
+
+.exitlogin {
+    align-self: flex-end;
+    width: 50px;
+}
+
+.loginmModal {
+   
+    margin: auto;
+    margin-top: 100px;
+    width: 900px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    background-image: url("./img/cookie-modal/cookie_back.jpg");
+    background-size: cover;
+}
+
+.loginModal hr {
+    width: 45%;
+    margin-top: -0.1%;
+}
+
+.loginmModal div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: justify;
+    z-index: 0;
+    background-color: white;
+    margin-top: auto;
+}
+
+.loginModal div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    background-color: var(--bgColormain);
+    margin: -45% 15% 0% 15%;
+    padding-bottom: 5%;
+}
